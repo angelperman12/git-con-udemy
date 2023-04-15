@@ -1,1 +1,7 @@
-Este es el README.
+CABECERAS: Igual que en HTML los # representan los (H#) encabezados.
+# Cabecera H1
+## Cabecera H2
+### Cabecera H3
+#### Cabecera H4
+##### Cabecera H5
+###### Cabecera H6
