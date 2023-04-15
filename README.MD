@@ -19,9 +19,9 @@ Underline 2
 
 # EMPHASIS
 - Para EMPHASIS que es el formato de texto se usa: encerar en * o _ para italica ** o __ para bold/strong y ~~ para tachado.
-*Formato en Italica*
-__Formato Strong__
-~~Formato Tachado~~
+- *Formato en Italica*
+- __Formato Strong__
+- ~~Formato Tachado~~
 
 # LISTAS
 1. Lista ordenada
@@ -30,3 +30,6 @@ __Formato Strong__
 - Lista no ordenada
 - Lista no ordenada
 - Lista no ordenada
+
+# LINKS
+[Links en MARKDOWN](http://www.google.com)
