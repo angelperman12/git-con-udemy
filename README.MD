@@ -5,3 +5,9 @@ CABECERAS: Igual que en HTML los # representan los (H#) encabezados.
 #### Cabecera H4
 ##### Cabecera H5
 ###### Cabecera H6
+
+Underline 1
+------------
+
+Underline 2
+====
