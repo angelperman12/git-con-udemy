@@ -39,7 +39,7 @@ Underline 2
 
 # Snippets
 Snippet de Markdown
-´´´ GO
+``` GO
 package main
 
 import "fmt"
@@ -53,4 +53,9 @@ func main() {
     return
 }
 export $initHighlight;
-´´´
+```
+
+# Tablas
+|COLUMNA 1 | COLUMNA 2 | COLUMNA 3 |
+|----------|-----------|-----------|
+|R1 |R2 |R3|
