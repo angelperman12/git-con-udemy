@@ -38,7 +38,7 @@ Underline 2
 ![GitHub](https://bitemycoin.com/wp-content/uploads/2018/06/GitHub-Logo.png)
 
 # Snippets
-Snippet de Markdown
+Snippet de GO
 ``` GO
 package main
 
@@ -52,10 +52,24 @@ func main() {
     go println(len("hello world!"))
     return
 }
-export $initHighlight;
 ```
 
 # Tablas
 |COLUMNA 1 | COLUMNA 2 | COLUMNA 3 |
 |----------|-----------|-----------|
 |R1 |R2 |R3|
+
+# CITAS
+
+> Esta es una cita
+
+
+Fuera de la Cita
+
+# LINEAS
+LINEAS CON ---
+---
+LINEAS CON ***
+***
+LINEAS CON _ _ _
+___
