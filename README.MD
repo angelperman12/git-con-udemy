@@ -39,29 +39,18 @@ Underline 2
 
 # Snippets
 Snippet de Markdown
-´´´MARKDOWN
-# hello world
+´´´ GO
+package main
 
-you can write text [with links](http://example.com) inline or [link references][1].
+import "fmt"
 
-* one _thing_ has *em*phasis
-* two __things__ are **bold**
-
-[1]: http://example.com
-
----
-
-hello world
-===========
-
-<this_is inline="xml"></this_is>
-
-> markdown is so cool
-
-    so are code segments
-
-1. one thing (yeah!)
-2. two thing `i can write code`, and `more` wipee!
-
+func main() {
+    ch := make(chan float64)
+    ch <- 1.0e10    // magic number
+    x, ok := <- ch
+    defer fmt.Println(`exitting now\`)
+    go println(len("hello world!"))
+    return
+}
 export $initHighlight;
 ´´´
